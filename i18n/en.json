@@ -17,7 +17,8 @@
 
     "bucket-action-title": "View Bucket: $1",
     "bucket-sidebar-action": "View Bucket",
-    "bucket-action-writes-empty": "No Buckets are written to from this page",
+    "bucket-action-description": "Inspect writes to Buckets caused by this page",
+    "bucket-action-writes-empty": "No Buckets are written to from this page.",
 
     "bucket-api-help-query": "Invalidates all other params. Must be a fully valid lua Bucket call",
     "bucket-api-help-bucket": "A valid Bucket name. Required if query param is not set",

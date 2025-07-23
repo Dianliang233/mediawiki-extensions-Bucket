@@ -5,7 +5,6 @@ namespace MediaWiki\Extension\Bucket;
 use MediaWiki\Api\ApiMain;
 use MediaWiki\Navigation\PagerNavigationBuilder;
 use MediaWiki\Request\DerivativeRequest;
-use OOUI;
 
 class BucketPageHelper {
 
