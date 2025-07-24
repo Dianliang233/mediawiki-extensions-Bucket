@@ -264,7 +264,7 @@ class Hooks implements
 	public function onContentModelCanBeUsedOn( $contentModel, $title, &$ok ) {
 		if ( $title->getNamespace() !== NS_BUCKET ) {
 			return;
-		} elseif ( $contentModel !== 'json' ) {
+		} elseif ( $contentModel !== 'bucket' ) {
 			$ok = false;
 			return false;
 		}

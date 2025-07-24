@@ -22,19 +22,19 @@
 		"BucketAction": "includes/BucketAction.php"
 	},
 	"namespaces": [
-			{
-				"id": 9592,
-				"constant": "NS_BUCKET",
-				"name": "Bucket",
-				"subpages": false,
-				"movable": false,
-				"defaultcontentmodel": "json"
-			},
-			{
-				"id": 9593,
-				"constant": "NS_BUCKET_TALK",
-				"name": "Bucket_talk"
-			}
+		{
+			"id": 9592,
+			"constant": "NS_BUCKET",
+			"name": "Bucket",
+			"subpages": false,
+			"movable": false,
+			"defaultcontentmodel": "bucket"
+		},
+		{
+			"id": 9593,
+			"constant": "NS_BUCKET_TALK",
+			"name": "Bucket_talk"
+		}
 	],
 	"Hooks": {
 		"LinksUpdateComplete": "BucketHookHandler",
@@ -62,6 +62,9 @@
 	},
 	"APIModules": {
 		"bucket": "MediaWiki\\Extension\\Bucket\\BucketApi"
+	},
+	"ContentHandlers": {
+		"bucket": "MediaWiki\\Extension\\Bucket\\Content\\BucketContentHandler"
 	},
 	"MessagesDirs": {
 		"Bucket": [
